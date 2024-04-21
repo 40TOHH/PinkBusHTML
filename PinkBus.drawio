@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2024-04-21T18:41:27.812Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="4sQKWZQPAWEMYwd0b0YG" version="24.2.7" type="device">
+  <diagram name="Page-1" id="jf9cVf4QIWhpnfQn6htC">
+    <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ceICUff7sKELV84DHkFc-1" value="Главная страница" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ceICUff7sKELV84DHkFc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="320" as="sourcePoint" />
+            <mxPoint x="140" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-3" value="На ней список туров" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-4" value="Отдельная страница списка туров" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="185" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-5" value="&lt;div&gt;Карточка тура (краткие данные) продумать какие&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ceICUff7sKELV84DHkFc-3" target="ceICUff7sKELV84DHkFc-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="420" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ceICUff7sKELV84DHkFc-4" target="ceICUff7sKELV84DHkFc-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="420" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-10" value="Логика взаимодействия клиентов" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="500" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-13" value="Статичные страницы" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="100" width="260" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-14" value="Клиентская часть" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="810" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-18" value="&lt;div&gt;Обратная связь&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ceICUff7sKELV84DHkFc-14">
+          <mxGeometry x="670" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-12" value="Еще что нибудь о нас о оплате и прочее (надо продумать накинуть текста" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ceICUff7sKELV84DHkFc-14">
+          <mxGeometry x="620" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-11" value="Страница о нас" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ceICUff7sKELV84DHkFc-14">
+          <mxGeometry x="560" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-8" value="Страница тура с полной информацие, полным описанием, предостиижениями и кнопкой оплаты" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ceICUff7sKELV84DHkFc-14">
+          <mxGeometry x="400" y="380" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-20" value="клик" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ceICUff7sKELV84DHkFc-14">
+          <mxGeometry x="320" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-15" value="Часть модератора" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="650" width="790" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-16" value="Возможность менять туры" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ceICUff7sKELV84DHkFc-15">
+          <mxGeometry x="35" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-17" value="Возможность обрабатывать заявки пользователей" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ceICUff7sKELV84DHkFc-15">
+          <mxGeometry x="180" y="70" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ceICUff7sKELV84DHkFc-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.982;exitY=0.316;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ceICUff7sKELV84DHkFc-5" target="ceICUff7sKELV84DHkFc-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="480" as="sourcePoint" />
+            <mxPoint x="380" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
